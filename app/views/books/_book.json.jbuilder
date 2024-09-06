@@ -1,7 +1,7 @@
-json.id books.id
-json.title books.title
-json.author books.author
-json.pages books.pages
-json.price books.price
-json.created_at books.created_at
-json.udpated_at books.udpated_at
+json.id book.id
+json.title book.title
+json.author book.author
+json.pages book.pages
+json.price book.price
+json.created_at book.created_at
+json.updated_at book.updated_at

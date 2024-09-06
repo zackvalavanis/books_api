@@ -7,3 +7,14 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+require 'ffaker'
+
+10.times do 
+  Book.create(
+    title: FFaker::Book.title, 
+    author: FFaker::Name.name, 
+    pages: rand(250..500), 
+    price: rand(1..50)
+)
+end
